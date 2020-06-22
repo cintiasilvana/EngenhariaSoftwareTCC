@@ -1,0 +1,16 @@
+C:\Users\BRUNO\Desktop\TCC Pos Graduação\WebProjectTCC\TCC.Application\bin\Debug\TCC.Application.dll
+C:\Users\BRUNO\Desktop\TCC Pos Graduação\WebProjectTCC\TCC.Application\bin\Debug\TCC.Application.pdb
+C:\Users\BRUNO\Desktop\TCC Pos Graduação\WebProjectTCC\TCC.Application\obj\Debug\TCC.Application.csprojAssemblyReference.cache
+C:\Users\BRUNO\Desktop\TCC Pos Graduação\WebProjectTCC\TCC.Application\obj\Debug\TCC.Application.Messagem.MsgNotification.resources
+C:\Users\BRUNO\Desktop\TCC Pos Graduação\WebProjectTCC\TCC.Application\obj\Debug\TCC.Application.csproj.GenerateResource.cache
+C:\Users\BRUNO\Desktop\TCC Pos Graduação\WebProjectTCC\TCC.Application\obj\Debug\TCC.Application.csproj.CoreCompileInputs.cache
+C:\Users\BRUNO\Desktop\TCC Pos Graduação\WebProjectTCC\TCC.Application\obj\Debug\TCC.Application.dll
+C:\Users\BRUNO\Desktop\TCC Pos Graduação\WebProjectTCC\TCC.Application\obj\Debug\TCC.Application.pdb
+D:\GitHub\WebProjectTCC\TCC.Application\bin\Debug\TCC.Application.dll
+D:\GitHub\WebProjectTCC\TCC.Application\bin\Debug\TCC.Application.pdb
+D:\GitHub\WebProjectTCC\TCC.Application\obj\Debug\TCC.Application.Messagem.MsgNotification.resources
+D:\GitHub\WebProjectTCC\TCC.Application\obj\Debug\TCC.Application.csproj.GenerateResource.cache
+D:\GitHub\WebProjectTCC\TCC.Application\obj\Debug\TCC.Application.csproj.CoreCompileInputs.cache
+D:\GitHub\WebProjectTCC\TCC.Application\obj\Debug\TCC.Application.dll
+D:\GitHub\WebProjectTCC\TCC.Application\obj\Debug\TCC.Application.pdb
+D:\GitHub\WebProjectTCC\TCC.Application\obj\Debug\TCC.Application.csprojAssemblyReference.cache

@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+<!--[if IE 9 ]><html class="ie ie9" lang="en" class="no-js"> <![endif]-->
+<!--[if !(IE)]><!-->
+<html lang="en" class="no-js">
+<head>
+    <title>Academia</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="KingAdmin - Bootstrap Admin Dashboard Theme">
+    <meta name="author" content="The Develovers">
+    <!-- CSS -->
+    <link href="~/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="~/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="~/assets/js/plugins/select2/select2.min.css" rel="stylesheet" />
+    <link href="~/assets/js/plugins/jquery-gritter/css/jquery.gritter.css" rel="stylesheet" />
+    <link href="~/assets/css/main.css" rel="stylesheet" type="text/css">
+    <link href="~/assets/css/my-custom-styles.css" rel="stylesheet" type="text/css">
+    <!--[if lte IE 9]>
+        <link href="~/assets/css/main-ie.css" rel="stylesheet" type="text/css"/>
+        <link href="~/assets/css/main-ie-part2.css" rel="stylesheet" type="text/css"/>
+    <![endif]-->
+    <!-- CSS for demo style switcher. you can remove this -->
+    <link href="~/demo-style-switcher/assets/css/style-switcher.css" rel="stylesheet" type="text/css">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="~/assets/ico/kingadmin-favicon144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="~/assets/ico/kingadmin-favicon114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="~/assets/ico/kingadmin-favicon72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="~/assets/ico/kingadmin-favicon57x57.png">
+    @*<link rel="shortcut icon" href="~/assets/ico/favicon.png">*@
+</head>
+<body class="demo-only-page-blank">
+    <!-- WRAPPER -->
+    <div class="wrapper">
+        <!-- TOP BAR -->
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <!-- logo -->
+                    <div class="col-md-2 logo">
+                        <a href="@Url.Content("~/Home")">
+                            @*<img src="~/assets/img/kingadmin-logo-white.png" vspace="10"/>*@
+                            @*<span class="text-logo">Workout Fitness</span>*@
+                        </a>
+                        <h1 class="sr-only">KingAdmin Admin Dashboard</h1>
+                    </div>
+                    <!-- end logo -->
+                    <div class="col-md-10">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <!-- search box -->
+                                <div id="tour-searchbox" class="input-group searchbox">
+                                
+                                </div>
+                                <!-- end search box -->
+                            </div>
+                            <div class="col-md-9">
+                                <div class="top-bar-right">
+                                    <!-- responsive menu bar icon -->
+                                    <a href="#" class="hidden-md hidden-lg main-nav-toggle"><i class="fa fa-bars"></i></a>
+                                    <!-- end responsive menu bar icon -->
+                                
+                                    <!-- logged user and the menu -->
+                                    <div class="logged-user">
+                                        <div class="btn-group">
+                                            <a href="#" class="btn btn-link dropdown-toggle" data-toggle="dropdown">
+                                                <i class="fa fa-user"></i>
+                                                @*<img src="~/assets/img/user-avatar.png" alt="User Avatar" />*@
+                                                <span class="name">@User.Identity.Name</span> <span class="caret"></span>
+                                            </a>
+                                            <ul class="dropdown-menu" role="menu">
+
+                                                <li>
+                                                    <a href="@Url.Content("~/Account/LogOff")">
+                                                        <i class="fa fa-power-off"></i>
+                                                        <span class="text">Logout</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- end logged user and the menu -->
+                                </div>
+                                <!-- /top-bar-right -->
+                            </div>
+                        </div>
+                        <!-- /row -->
+                    </div>
+                </div>
+                <!-- /row -->
+            </div>
+            <!-- /container -->
+        </div>
+        <!-- /top -->
+        <!-- BOTTOM: LEFT NAV AND RIGHT MAIN CONTENT -->
+        <div class="bottom">
+            <div class="container">
+                <div class="row">
+                    <!-- left sidebar -->
+                    <div class="col-md-2 left-sidebar">
+                        <!-- main-nav -->
+                        <nav class="main-nav">
+                            <ul class="main-menu">
+                                <li class="active">
+                                    <a href="#" class="js-sub-menu-toggle">
+                                        <i class="fa fa-edit fw"></i><span class="text">Cadastros</span>
+                                        <i class="toggle-icon fa fa-angle-left"></i>
+                                    </a>
+                                    <ul class="sub-menu ">
+                                        <li><a href="@Url.Content("~/Empresa")"><span class="text">Empresa</span></a></li>
+                                        <li><a href="@Url.Content("~/Colaborador")"><span class="text">Instrutor</span></a></li>
+                                        <li><a href="@Url.Content("~/Cliente")"><span class="text">Aluno</span></a></li>
+                                        <li><a href="@Url.Content("~/Treinamento")"><span class="text">Treinamento</span></a></li>
+                                    </ul>
+                                </li>
+                                <li class="active">
+                                    <a href="#" class="js-sub-menu-toggle">
+                                        <i class="fa fa-file-pdf-o"></i><span class="text">Relatório</span>
+                                        <i class="toggle-icon fa fa-angle-left"></i>
+                                    </a>
+                                    <ul class="sub-menu ">
+                                        <li><a href="@Url.Content("~/ClienteRpt")"><span class="text">Listagem de Alunos</span></a></li>
+                                    </ul>
+                                    <ul class="sub-menu ">
+                                        <li><a href="@Url.Content("~/ColaboradorRpt")"><span class="text">Listagem de Instrutores</span></a></li>
+                                    </ul>
+                                    <ul class="sub-menu ">
+                                        <li><a href="@Url.Content("~/TreinamentoRpt")"><span class="text">Listagem de Treinamentos</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                        <!-- /main-nav -->
+                        <div class="sidebar-minified js-toggle-minified">
+                            <i class="fa fa-angle-left"></i>
+                        </div>
+                    
+                    </div>
+          
+                    <!-- content-wrapper -->
+                    <div class="col-md-10 content-wrapper">
+                        <!-- main -->
+                        @Scripts.Render("~/bundles/jquery")
+                        @Scripts.Render("~/bundles/modernizr")
+                        @Scripts.Render("~/bundles/bootstrap")
+                        @Scripts.Render("~/bundles/jqueryval")
+                        @Scripts.Render("~/bundles/plugin")
+                        @Scripts.Render("~/bundles/datatable")         
+
+                        @RenderBody()
+                        <!-- /main -->
+                    </div>
+                    <!-- /content-wrapper -->
+                </div>
+                <!-- /row -->
+            </div>
+            <!-- /container -->
+        </div>
+        <!-- END BOTTOM: LEFT NAV AND RIGHT MAIN CONTENT -->
+    </div>
+    <!-- /wrapper -->
+    <!-- FOOTER -->
+    <footer class="footer"></footer>
+
+    <!-- END STYLE SWITCHER -->
+    @RenderSection("scripts", false)
+    <script src="~/Scripts/Util/message.js"></script>
+    <script src="~/Scripts/Util/url.js"></script>
+    <script>
+        $(function () {
+            $li = $("a.js-sub-menu-toggle").parent('li');
+            if (!$li.hasClass('active')) {
+                $li.find(' > a .toggle-icon').removeClass('fa-angle-left').addClass('fa-angle-down');
+                $li.addClass('active');
+            }
+
+            $li.find(' > .sub-menu').slideToggle(300);
+        })
+    </script>
+
+</body>
+
+</html>

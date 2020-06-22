@@ -1,0 +1,134 @@
+﻿@using TCC.Web.Models
+@model LoginViewModel
+
+@{
+    Layout = null;
+    ViewBag.Title = "Log in";
+}
+
+<!DOCTYPE html>
+<!--[if IE 9 ]><html class="ie ie9" lang="en" class="no-js"> <![endif]-->
+<!--[if !(IE)]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<head>
+    <title>Login | Academia</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="KingAdmin Dashboard">
+    <meta name="author" content="The Develovers">
+    <!-- CSS -->
+    <link href="~/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="~/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="~/assets/css/main.css" rel="stylesheet" type="text/css">
+    <!--[if lte IE 9]>
+        <link href="assets/css/main-ie.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/main-ie-part2.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="~/assets/ico/kingadmin-favicon144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="~/assets/ico/kingadmin-favicon114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="~/assets/ico/kingadmin-favicon72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="~/assets/ico/kingadmin-favicon57x57.png">
+    @*<link rel="shortcut icon" href="assets/ico/favicon.png">*@
+</head>
+
+<body>
+    <div class="wrapper full-page-wrapper page-auth page-login text-center">
+        <div class="inner-page">
+            <div class="logo">
+                <a href="index.html"><img src="~/assets/img/Workout-azul.png" alt="" class="login"/></a>
+            </div>
+            @*<section id="socialLoginForm">
+                @Html.Partial("_ExternalLoginsListPartial", new ExternalLoginListViewModel { ReturnUrl = ViewBag.ReturnUrl })
+            </section>*@
+            @*<div class="separator"><span>OU</span></div>*@
+            <div class="login-box center-block">
+
+                <section id="loginForm">
+                    @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <h4>Entre com seu E-mail e Senha</h4>
+                        <hr />
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                <div class="input-group">
+                                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control", @placeholder = "Usuário" })
+                                    @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                <div class="input-group">
+                                    @Html.PasswordFor(m => m.Password, new { @class = "form-control", @placeholder = "Senha" })
+                                    @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                                    <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-offset-1 col-md-10">
+                                <div class="checkbox">
+                                    @Html.CheckBoxFor(m => m.RememberMe)
+                                    @Html.LabelFor(m => m.RememberMe)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                <input type="submit" value="Entrar" class="btn btn-custom-primary btn-lg btn-block btn-auth" />
+                            </div>
+                        </div>
+                        @*<p>
+                            @Html.ActionLink("Registrar-se como novo usuário", "Register")
+                        </p>*@
+                        @* Ativar isso assim que você tiver a confirmação de conta ativada para a funcionalidade de redefinição de senha
+                            <p>
+                                @Html.ActionLink("Esqueceu sua senha?", "ForgotPassword")
+                            </p>*@
+                    }
+                </section>
+                @*<form class="form-horizontal" role="form">
+                        <p class="title">Use your username</p>
+                        <div class="form-group">
+                            <label for="username" class="control-label sr-only">Username</label>
+                            <div class="col-sm-12">
+                                <div class="input-group">
+                                    <input type="text" placeholder="username" id="username" class="form-control">
+                                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <label for="password" class="control-label sr-only">Password</label>
+                        <div class="form-group">
+                            <div class="col-sm-12">
+                                <div class="input-group">
+                                    <input type="password" placeholder="password" id="password" class="form-control">
+                                    <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <label class="fancy-checkbox">
+                            <input type="checkbox">
+                            <span>Remember me next time</span>
+                        </label>
+                        <button class="btn btn-custom-primary btn-lg btn-block btn-auth"><i class="fa fa-arrow-circle-o-right"></i> Login</button>
+                    </form>*@
+                <div class="links">
+                    @*<p><a href="#">Forgot Username or Password?</a></p>*@
+                    @*<p><a href="#">Create New Account</a></p>*@
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">&copy; Trabalho de Conclusão de Curso - Engenharia de Software - Bruno César dos Santos</footer>
+    <!-- Javascript -->
+    <script src="~/assets/js/jquery/jquery-2.1.0.min.js"></script>
+    <script src="~/assets/js/bootstrap/bootstrap.min.js"></script>
+    <script src="~/assets/js/plugins/modernizr/modernizr.js"></script>
+</body>
+</html>

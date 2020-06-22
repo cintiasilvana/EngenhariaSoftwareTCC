@@ -1,0 +1,37 @@
+﻿@model List<TCC.Web.Models.EmpresaViewModel>
+<table class="table table-sorting table-hover table-bordered table-responsive-block" id="tableCompany">
+    <thead>
+        <tr>
+            <th>Nome Fantasia</th>
+            <th>Razão Social</th>
+            <th>CNPJ</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.NomeFantasia</td>
+                    <td>@item.RazaoSocial</td>
+                    <td>@item.CNPJ</td>
+                    <td>
+                        <div class="btn-group pull-right">
+
+                            <button type="button" onclick="editar('@item.Id', urlGetEmpresa)" class="btn btn-success" data-toggle="toogle" data-animation="false" title="Editar">
+                                <i class="fa fa-pencil"></i>
+                            </button>
+                            <button type="button" onclick="ID = @item.Id" data-target="#modalDelete" data-toggle="modal" class="btn btn-success" data-animation="false" title="Deletar">
+                                <i class="fa fa-trash-o"></i>
+                            </button>
+                            <button type="button" onclick="visualiza('@item.Id', urlGetEmpresa)" class="btn btn-success" data-toggle="toogle" data-animation="false" title="Visualizar">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

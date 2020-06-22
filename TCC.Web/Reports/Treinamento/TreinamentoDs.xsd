@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TreinamentoDs" targetNamespace="http://tempuri.org/TreinamentoDs.xsd" xmlns:mstns="http://tempuri.org/TreinamentoDs.xsd" xmlns="http://tempuri.org/TreinamentoDs.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TreinamentoDs" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="TreinamentoDs" msprop:Generator_UserDSName="TreinamentoDs">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Treinamento" msprop:Generator_TableClassName="TreinamentoDataTable" msprop:Generator_TableVarName="tableTreinamento" msprop:Generator_TablePropName="Treinamento" msprop:Generator_RowDeletingName="TreinamentoRowDeleting" msprop:Generator_RowChangingName="TreinamentoRowChanging" msprop:Generator_RowEvHandlerName="TreinamentoRowChangeEventHandler" msprop:Generator_RowDeletedName="TreinamentoRowDeleted" msprop:Generator_UserTableName="Treinamento" msprop:Generator_RowChangedName="TreinamentoRowChanged" msprop:Generator_RowEvArgName="TreinamentoRowChangeEvent" msprop:Generator_RowClassName="TreinamentoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" minOccurs="0" />
+              <xs:element name="IdColaborador" msprop:Generator_ColumnVarNameInTable="columnIdColaborador" msprop:Generator_ColumnPropNameInRow="IdColaborador" msprop:Generator_ColumnPropNameInTable="IdColaboradorColumn" msprop:Generator_UserColumnName="IdColaborador" type="xs:int" minOccurs="0" />
+              <xs:element name="NomeColaborador" msprop:Generator_ColumnVarNameInTable="columnNomeColaborador" msprop:Generator_ColumnPropNameInRow="NomeColaborador" msprop:Generator_ColumnPropNameInTable="NomeColaboradorColumn" msprop:Generator_UserColumnName="NomeColaborador" type="xs:string" minOccurs="0" />
+              <xs:element name="IdEmpresa" msprop:Generator_ColumnVarNameInTable="columnIdEmpresa" msprop:Generator_ColumnPropNameInRow="IdEmpresa" msprop:Generator_ColumnPropNameInTable="IdEmpresaColumn" msprop:Generator_UserColumnName="IdEmpresa" type="xs:int" minOccurs="0" />
+              <xs:element name="Descricao" msprop:Generator_ColumnVarNameInTable="columnDescricao" msprop:Generator_ColumnPropNameInRow="Descricao" msprop:Generator_ColumnPropNameInTable="DescricaoColumn" msprop:Generator_UserColumnName="Descricao" type="xs:string" minOccurs="0" />
+              <xs:element name="Local" msprop:Generator_ColumnVarNameInTable="columnLocal" msprop:Generator_ColumnPropNameInRow="Local" msprop:Generator_ColumnPropNameInTable="LocalColumn" msprop:Generator_UserColumnName="Local" type="xs:string" minOccurs="0" />
+              <xs:element name="PeriodoInicial" msprop:Generator_ColumnVarNameInTable="columnPeriodoInicial" msprop:Generator_ColumnPropNameInRow="PeriodoInicial" msprop:Generator_ColumnPropNameInTable="PeriodoInicialColumn" msprop:Generator_UserColumnName="PeriodoInicial" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PeriodoFinal" msprop:Generator_ColumnVarNameInTable="columnPeriodoFinal" msprop:Generator_ColumnPropNameInRow="PeriodoFinal" msprop:Generator_ColumnPropNameInTable="PeriodoFinalColumn" msprop:Generator_UserColumnName="PeriodoFinal" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DataRegistro" msprop:Generator_ColumnVarNameInTable="columnDataRegistro" msprop:Generator_ColumnPropNameInRow="DataRegistro" msprop:Generator_ColumnPropNameInTable="DataRegistroColumn" msprop:Generator_UserColumnName="DataRegistro" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DiasSemanaTreinamento" msprop:Generator_ColumnVarNameInTable="columnDiasSemanaTreinamento" msprop:Generator_ColumnPropNameInRow="DiasSemanaTreinamento" msprop:Generator_ColumnPropNameInTable="DiasSemanaTreinamentoColumn" msprop:Generator_UserColumnName="DiasSemanaTreinamento" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

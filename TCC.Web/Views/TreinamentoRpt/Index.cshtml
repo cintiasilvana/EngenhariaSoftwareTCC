@@ -1,0 +1,39 @@
+﻿<div class="content">
+    <div class="main-header">
+        <h2>Relatório de Treinamentos</h2>
+        <span class="text-titulo"> Listagem de Treinamentos cadastrados</span>
+    </div>
+    <div class="main-content">
+        <div class="row">
+            <div class="col-md-12" style="margin-bottom: 30px">
+                <button href="#" id="btn-pdf" target="_blank" class="btn btn-primary pull-right" style="margin-top:5px;">
+                    <i class="fa fa-file-pdf-o"></i> <span class="bold">Gerar relatório</span>
+                </button>
+            </div>
+        </div>
+        @*<button href="#" id="btn-pdf" target="_blank" class="btn btn-primary" style="margin-top:20px;">Gerar relatório</button>*@
+        <div class="widget">
+            <embed src="" style="max-width: 100%; width: 100%; overflow:hidden" id="frame-file" type='application/pdf' />
+        </div>
+    </div>
+</div>
+@section scripts{
+    <script>
+        $("body").removeClass().addClass("forms-elements");
+
+    </script>
+    <script src="~/assets/js/king-elements.js"></script>
+    <script src="~/Scripts/Util/crud-base.js"></script>
+    <script src="~/Scripts/Util/baseJs.js"></script>
+    <script src="~/Scripts/Util/address.js"></script>
+    <script src="~/Scripts/Relatorio/relatorio.js"></script>
+    <script>
+        $("#btn-pdf").click(function () {
+            $.post("/TreinamentoRpt/VisualizarTreinamentoPDF", function (data) {
+                //$("#modalFile").modal("show");
+                $("#frame-file").attr("src", data);
+                $("#frame-file").css("height", 800);
+            });
+        });
+    </script>
+}

@@ -1,0 +1,35 @@
+C:\Users\BRUNO\Desktop\TCC Pos Graduação\WebProjectTCC\TCC.Domain\bin\Debug\TCC.Domain.dll.config
+C:\Users\BRUNO\Desktop\TCC Pos Graduação\WebProjectTCC\TCC.Domain\bin\Debug\TCC.Domain.dll
+C:\Users\BRUNO\Desktop\TCC Pos Graduação\WebProjectTCC\TCC.Domain\bin\Debug\TCC.Domain.pdb
+C:\Users\BRUNO\Desktop\TCC Pos Graduação\WebProjectTCC\TCC.Domain\bin\Debug\EntityFramework.dll
+C:\Users\BRUNO\Desktop\TCC Pos Graduação\WebProjectTCC\TCC.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\BRUNO\Desktop\TCC Pos Graduação\WebProjectTCC\TCC.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\BRUNO\Desktop\TCC Pos Graduação\WebProjectTCC\TCC.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\BRUNO\Desktop\TCC Pos Graduação\WebProjectTCC\TCC.Domain\bin\Debug\EntityFramework.xml
+C:\Users\BRUNO\Desktop\TCC Pos Graduação\WebProjectTCC\TCC.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\BRUNO\Desktop\TCC Pos Graduação\WebProjectTCC\TCC.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\BRUNO\Desktop\TCC Pos Graduação\WebProjectTCC\TCC.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\BRUNO\Desktop\TCC Pos Graduação\WebProjectTCC\TCC.Domain\bin\Debug\pt-br\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\BRUNO\Desktop\TCC Pos Graduação\WebProjectTCC\TCC.Domain\bin\Debug\pt-br\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\BRUNO\Desktop\TCC Pos Graduação\WebProjectTCC\TCC.Domain\obj\Debug\TCC.Domain.csproj.CoreCompileInputs.cache
+C:\Users\BRUNO\Desktop\TCC Pos Graduação\WebProjectTCC\TCC.Domain\obj\Debug\TCC.Domain.csproj.CopyComplete
+C:\Users\BRUNO\Desktop\TCC Pos Graduação\WebProjectTCC\TCC.Domain\obj\Debug\TCC.Domain.dll
+C:\Users\BRUNO\Desktop\TCC Pos Graduação\WebProjectTCC\TCC.Domain\obj\Debug\TCC.Domain.pdb
+D:\GitHub\WebProjectTCC\TCC.Domain\bin\Debug\TCC.Domain.dll.config
+D:\GitHub\WebProjectTCC\TCC.Domain\bin\Debug\TCC.Domain.dll
+D:\GitHub\WebProjectTCC\TCC.Domain\bin\Debug\TCC.Domain.pdb
+D:\GitHub\WebProjectTCC\TCC.Domain\bin\Debug\EntityFramework.dll
+D:\GitHub\WebProjectTCC\TCC.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitHub\WebProjectTCC\TCC.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\GitHub\WebProjectTCC\TCC.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\GitHub\WebProjectTCC\TCC.Domain\bin\Debug\EntityFramework.xml
+D:\GitHub\WebProjectTCC\TCC.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitHub\WebProjectTCC\TCC.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\GitHub\WebProjectTCC\TCC.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\GitHub\WebProjectTCC\TCC.Domain\bin\Debug\pt-br\Microsoft.AspNet.Identity.Core.resources.dll
+D:\GitHub\WebProjectTCC\TCC.Domain\bin\Debug\pt-br\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\GitHub\WebProjectTCC\TCC.Domain\obj\Debug\TCC.Domain.csproj.CoreCompileInputs.cache
+D:\GitHub\WebProjectTCC\TCC.Domain\obj\Debug\TCC.Domain.csproj.CopyComplete
+D:\GitHub\WebProjectTCC\TCC.Domain\obj\Debug\TCC.Domain.dll
+D:\GitHub\WebProjectTCC\TCC.Domain\obj\Debug\TCC.Domain.pdb
+D:\GitHub\WebProjectTCC\TCC.Domain\obj\Debug\TCC.Domain.csprojAssemblyReference.cache

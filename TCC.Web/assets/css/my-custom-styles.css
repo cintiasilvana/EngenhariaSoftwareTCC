@@ -1,0 +1,937 @@
+/*	
+*	################################################################################
+*	
+*	My Custom Style for KINGADMIN
+*	---------------------------------------------------------------------
+*
+*	Version		1.0
+*	Author		Your Name
+*	
+*	Override theme style or create your new styles. Direct change to main.css
+*	is not recommended to avoid problems when theme updates arrived in the future
+*	
+*	################################################################################
+*/
+
+
+.top-bar .notifications {
+    margin-left: 10px;
+    margin-right: 58px;
+}
+
+.text-logo {
+    font-size: 22px;
+    font-family: fantasy;
+    color: white;
+    position: relative;
+    left: 36px;
+    bottom: 4px;
+    text-transform: uppercase;
+}
+
+
+.text-titulo {
+    position: relative;
+    top: 3px;
+    color: #999999;
+}
+
+
+
+.form-group-default.form-group-default-select .ui-select-container .select2-choices {
+    border: 0px;
+}
+
+.form-group-default.form-group-default-select2 {
+    padding: 0;
+}
+
+    .form-group-default.form-group-default-select2 > label {
+        position: absolute;
+        z-index: 10;
+        padding: 7px 12px 0 12px;
+    }
+
+        .form-group-default.form-group-default-select2 > label.label-lg {
+            left: 0;
+            top: 0;
+        }
+
+        .form-group-default.form-group-default-select2 > label.label-sm {
+            left: 0;
+            top: 0;
+        }
+
+    .form-group-default.form-group-default-select2 .select2-container .select2-selection--single {
+        padding-top: 20px;
+        height: 52px;
+        border: 0 !important;
+    }
+
+        .form-group-default.form-group-default-select2 .select2-container .select2-selection--single .select2-arrow b:before {
+            top: 20px;
+        }
+
+        .form-group-default.form-group-default-select2 .select2-container .select2-selection--single .select2-chosen {
+            padding-left: 3px;
+            padding-top: 1px;
+        }
+
+    .form-group-default.form-group-default-select2 .select2-container .select2-selection--multiple {
+        padding-top: 20px;
+        height: 52px;
+        border: 0px !important;
+    }
+
+        .form-group-default.form-group-default-select2 .select2-container .select2-selection--multiple .select2-selection__rendered .select2-selection__choice {
+            margin-top: 4px;
+        }
+
+    .form-group-default.form-group-default-select2 > .input-lg {
+        height: auto;
+        padding: 0;
+    }
+
+        .form-group-default.form-group-default-select2 > .input-lg .select2-choice {
+            padding-top: 20px;
+            height: 56px;
+        }
+
+    .form-group-default.form-group-default-select2 > .input-sm {
+        height: auto;
+        padding: 0;
+    }
+
+        .form-group-default.form-group-default-select2 > .input-sm .select2-choice {
+            padding-top: 20px;
+            height: 46px;
+        }
+
+.form-group-default.form-group-default-selectFx {
+    padding: 0;
+}
+
+    .form-group-default.form-group-default-selectFx > label {
+        position: absolute;
+        z-index: 10;
+        padding: 7px 12px 0 12px;
+    }
+
+        .form-group-default.form-group-default-selectFx > label.label-lg {
+            left: 0;
+            top: 0;
+        }
+
+        .form-group-default.form-group-default-selectFx > label.label-sm {
+            left: 0;
+            top: 0;
+        }
+
+    .form-group-default.form-group-default-selectFx .cs-wrapper .cs-placeholder {
+        padding-top: 28px;
+        height: 52px;
+        padding-left: 12px;
+    }
+
+    .form-group-default.form-group-default-selectFx .cs-wrapper .cs-select {
+        height: auto;
+    }
+
+        .form-group-default.form-group-default-selectFx .cs-wrapper .cs-select > span:after,
+        .form-group-default.form-group-default-selectFx .cs-wrapper .cs-select .cs-selected span:after {
+            top: 39px;
+        }
+
+        .form-group-default.form-group-default-selectFx .cs-wrapper .cs-select.input-lg .cs-placeholder {
+            height: 60px;
+        }
+
+        .form-group-default.form-group-default-selectFx .cs-wrapper .cs-select.input-sm .cs-placeholder {
+            height: 50px;
+        }
+
+    .form-group-default.form-group-default-selectFx .cs-wrapper .dropdown-placeholder {
+        vertical-align: top;
+    }
+/* Form validation
+--------------------------------------------------
+*/
+.has-success .help-block,
+.has-success .control-label,
+.has-success .radio,
+.has-success .checkbox,
+.has-success .radio-inline,
+.has-success .checkbox-inline {
+    color: #0da899;
+}
+
+.has-success .form-control {
+    border-color: #0da899;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+    .has-success .form-control:focus {
+        border-color: #09786e;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+.has-success .input-group-addon {
+    background: #f0f0f0;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    color: rgba(98, 98, 98, 0.47);
+}
+
+.has-success .form-control-feedback {
+    color: #0da899;
+}
+
+.has-warning .help-block,
+.has-warning .control-label,
+.has-warning .radio,
+.has-warning .checkbox,
+.has-warning .radio-inline,
+.has-warning .checkbox-inline {
+    color: #c9a843;
+}
+
+.has-warning .form-control {
+    border-color: #c9a843;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+    .has-warning .form-control:focus {
+        border-color: #a98b31;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+.has-warning .input-group-addon {
+    background: #f0f0f0;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    color: rgba(98, 98, 98, 0.47);
+}
+
+.has-warning .form-control-feedback {
+    color: #c9a843;
+}
+
+.has-error .help-block,
+.has-error .control-label,
+.has-error .radio,
+.has-error .checkbox,
+.has-error .radio-inline,
+.has-error .checkbox-inline {
+    color: #f55753;
+}
+
+.has-error .form-control {
+    border-color: #f55753;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+    .has-error .form-control:focus {
+        border-color: #f22823;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+.has-error .input-group-addon {
+    background: #f0f0f0;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    color: rgba(98, 98, 98, 0.47);
+}
+
+.has-error .form-control-feedback {
+    color: #f55753;
+}
+
+.error {
+    font-size: 12px;
+    color: #f55753;
+    display: block;
+}
+/* Addon inputs
+--------------------------------------------------
+*/
+.input-group-addon {
+    background: #f0f0f0;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    color: rgba(98, 98, 98, 0.47);
+    font-size: 14px;
+    padding: 6px 10px;
+    border-radius: 3px;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s, color 0.2s linear 0s, box-shadow 0.2s linear 0s, background 0.2s linear 0s;
+}
+
+    .input-group-addon i {
+        position: relative;
+        top: 1px;
+    }
+
+    .input-group-addon.primary {
+        background-color: #6d5cae;
+        border: 1px solid #6d5cae;
+        color: #fff;
+    }
+
+        .input-group-addon.primary .arrow {
+            color: #6d5cae;
+        }
+
+    .input-group-addon.success {
+        background-color: #0090d9;
+        color: #fff;
+    }
+
+        .input-group-addon.success .arrow {
+            color: #0090d9;
+        }
+
+    .input-group-addon.info {
+        background-color: #1f3853;
+        color: #fff;
+    }
+
+        .input-group-addon.info .arrow {
+            color: #1f3853;
+        }
+
+    .input-group-addon.warning {
+        background-color: #fbb05e;
+        color: #fff;
+    }
+
+        .input-group-addon.warning .arrow {
+            color: #fbb05e;
+        }
+
+    .input-group-addon.danger {
+        background-color: #f35958;
+        color: #fff;
+    }
+
+        .input-group-addon.danger .arrow {
+            color: #f35958;
+        }
+
+    .input-group-addon .arrow {
+        position: relative;
+        right: -6px;
+        color: #D1DADE;
+        z-index: 100;
+    }
+
+        .input-group-addon .arrow:before {
+            font-family: 'FontAwesome';
+            content: "\f0da";
+            font-size: 23px;
+            position: absolute;
+            left: 17px;
+            top: -2px;
+        }
+
+    .input-group-addon:last-child .arrow:before {
+        font-family: 'FontAwesome';
+        content: "\f0d9";
+        font-size: 23px;
+        position: absolute;
+        left: -23px;
+        top: -2px;
+    }
+
+    .input-group-addon:last-child input {
+        border-left: 0px;
+    }
+/* Plugins
+--------------------------------------------------
+Datepicker
+https://github.com/eternicode/bootstrap-datepicker
+*/
+.datepicker {
+    padding: 16px 25px;
+    border-radius: 2px;
+    font-size: 12px;
+}
+
+    .datepicker:after {
+        border-bottom-color: #fafafa;
+    }
+
+    .datepicker thead tr .datepicker-switch {
+        color: #6f7b8a;
+        font-size: 13px;
+    }
+
+    .datepicker thead tr .next,
+    .datepicker thead tr .prev {
+        color: #6d5cae;
+        content: '';
+        font-size: 0px;
+    }
+
+        .datepicker thead tr .next:before,
+        .datepicker thead tr .prev:before {
+            color: #6d5cae;
+            font-family: 'FontAwesome';
+            font-size: 10px;
+        }
+
+        .datepicker thead tr .prev:before {
+            content: "\f053";
+        }
+
+        .datepicker thead tr .next:before {
+            content: "\f054";
+        }
+
+    .datepicker thead tr .dow {
+        font-family: 'Montserrat';
+        color: #6d5cae;
+        text-transform: uppercase;
+        font-size: 11px;
+    }
+
+    .datepicker thead tr th {
+        width: 31px;
+        height: 29px;
+    }
+
+    .datepicker tbody tr .odd {
+        color: #d0d3d8;
+    }
+
+    .datepicker table tr td {
+        width: 31px;
+        height: 29px;
+    }
+
+        .datepicker table tr td.old,
+        .datepicker table tr td.new {
+            color: #e6e6e6;
+        }
+
+        .datepicker table tr td.day:hover {
+            background: #f0f0f0;
+        }
+
+        .datepicker table tr td.active {
+            background-color: #6d5cae !important;
+        }
+
+            .datepicker table tr td.active,
+            .datepicker table tr td.active:hover,
+            .datepicker table tr td.active.disabled,
+            .datepicker table tr td.active.disabled:hover {
+                background-image: none;
+                text-shadow: none;
+                font-weight: 600;
+            }
+
+        .datepicker table tr td.today,
+        .datepicker table tr td.today:hover,
+        .datepicker table tr td.today.disabled,
+        .datepicker table tr td.today.disabled:hover {
+            background-color: #f0f0f0;
+            background-image: none;
+            color: #fff;
+        }
+
+        .datepicker table tr td span {
+            border-radius: 4px;
+            width: 42px;
+            height: 42px;
+            line-height: 42px;
+        }
+
+            .datepicker table tr td span.active {
+                background-color: #6d5cae !important;
+            }
+
+                .datepicker table tr td span.active,
+                .datepicker table tr td span.active:hover,
+                .datepicker table tr td span.active.disabled,
+                .datepicker table tr td span.active.disabled:hover {
+                    background-image: none;
+                    border: none;
+                    text-shadow: none;
+                }
+
+    .datepicker.dropdown-menu {
+        border-color: #e6e6e6;
+        color: #626262;
+    }
+
+    .datepicker.datepicker-dropdown.datepicker-orient-bottom:before {
+        border-color: #e6e6e6;
+    }
+
+.datepicker-inline {
+    width: auto;
+}
+
+.input-daterange .input-group-addon {
+    text-shadow: none;
+    border: 0;
+    margin: 0;
+}
+/* Timepicker
+https://github.com/m3wolf/bootstrap3-timepicker
+*/
+.bootstrap-timepicker-widget table td a i {
+    font-size: 12px;
+}
+
+.bootstrap-timepicker-widget a.btn,
+.bootstrap-timepicker-widget .bootstrap-timepicker-widget input {
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+}
+
+.bootstrap-timepicker-widget.dropdown-menu {
+    background: #fff;
+}
+/* Daterangepicker
+http://www.dangrossman.info/
+*/
+.daterangepicker {
+    background: #fff;
+}
+
+    .daterangepicker .calendar .calendar-date {
+        border: 1px solid rgba(0, 0, 0, 0.07);
+    }
+
+    .daterangepicker .calendar .prev,
+    .daterangepicker .calendar .next,
+    .daterangepicker .calendar th {
+        color: #6d5cae;
+        text-transform: uppercase;
+        font-size: 11px;
+    }
+
+    .daterangepicker .calendar .month {
+        color: #6f7b8a;
+        font-size: 13px;
+    }
+
+    .daterangepicker td.active,
+    .daterangepicker td.active:hover {
+        background-color: #6d5cae;
+        border-color: transparent;
+    }
+/* Select2
+http://ivaynberg.github.io/select2/
+*/
+.form-group-default .select2-container .select2-selection,
+.select2-container-multi .select2-choices {
+    border-color: transparent;
+}
+
+select.full-width + .select2-container {
+    width: 100% !important;
+}
+
+.select2-container *:focus {
+    outline: none;
+}
+
+
+
+.select2-container .select2-selection {
+    background-image: none;
+    border-radius: 2px;
+    /*border: 1px solid rgba(0, 0, 0, 0.07);*/
+    padding: 2px 9px;
+    transition: border 0.2s linear 0s;
+}
+
+    .select2-container .select2-selection .select2-selection__rendered {
+        padding: 0;
+        padding-left: 3px;
+        padding-top: 1px;
+    }
+
+    .select2-container .select2-selection .select2-selection__arrow {
+        top: auto;
+        bottom: 5px;
+        right: 10px !important;
+        left: auto;
+        background: transparent;
+        border-left: 0px;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    .select2-container .select2-selection.select2-selection--single {
+        height: 35px;
+    }
+
+    .select2-container .select2-selection > .select2-chosen {
+        margin-right: 26px;
+        margin-left: 0;
+    }
+
+.select2-container.select2-drop-above .select2-choice {
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.select2-container--default .select2-results__option[aria-selected="true"] {
+    background-color: transparent;
+}
+
+.select2-container--default .select2-results__group {
+    color: #2c2c2c;
+}
+
+.select2-search:before {
+    content: '\f002';
+    position: absolute;
+    top: 13px;
+    right: 17px;
+}
+
+.select2-search input,
+.select2-search-choice-close,
+.select2-container .select2-choice abbr,
+.select2-container .select2-choice .select2-arrow b {
+    background-image: none !important;
+}
+
+.select2-dropdown-open.select2-drop-above .select2-choice,
+.select2-dropdown-open.select2-drop-above .select2-choices {
+    background-image: none !important;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    background: #f0f0f0;
+}
+
+.select2-dropdown-open .select2-choice .select2-arrow {
+    -webkit-transform: scale(scale(1, -1));
+    -ms-transform: scale(scale(1, -1));
+    transform: scale(scale(1, -1));
+}
+
+.select2-dropdown {
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    border-bottom: none;
+    border-radius: 2px;
+    padding-top: 0px;
+}
+
+    .select2-dropdown.select2-drop-above {
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        box-shadow: none;
+    }
+
+.select2-container--open .select2-selection {
+    box-shadow: none;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    background: #f0f0f0;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.select2-search--dropdown {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+}
+
+    .select2-search--dropdown input {
+        background: #fff !important;
+        vertical-align: baseline;
+        line-height: 28px;
+        border-radius: 2px;
+        border: none;
+        font-size: 12px;
+        border: 1px solid rgba(0, 0, 0, 0.07) !important;
+    }
+
+.select2-results {
+    margin: 3px 8px 10px 8px;
+}
+
+    .select2-results li {
+        color: #626262;
+    }
+
+        .select2-results li.select2-result-with-children > .select2-result-label {
+            color: #2c2c2c;
+        }
+
+            .select2-results li.select2-result-with-children > .select2-result-label:first-child {
+                padding-top: 8px;
+            }
+
+    .select2-results .select2-results__option--highlighted {
+        background-color: #f0f0f0 !important;
+        border-radius: 3px;
+        color: #626262 !important;
+    }
+
+    .select2-results .select2-no-results,
+    .select2-results .select2-searching,
+    .select2-results .select2-selection-limit {
+        background: none;
+        color: #626262;
+        font-size: 12px;
+        padding-left: 8px;
+        padding-top: 0px;
+        position: relative;
+        top: -5px;
+    }
+
+.select2-dropdown {
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    padding-top: 5px;
+    z-index: 790;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
+}
+
+.select2-container--open .select2-selection--multiple .select2-selection__choice {
+    background-color: #fff !important;
+}
+
+.select2-selection--multiple .select2-selection__rendered {
+    background-image: none;
+}
+
+    .select2-selection--multiple .select2-selection__rendered .select2-selection__choice {
+        background-color: #e6e6e6;
+        background-image: none;
+        border: none;
+        box-shadow: none;
+        color: inherit;
+        border-radius: 8px;
+        margin: 6px -5px 0px 10px;
+        padding: 0 8px 0 7px;
+        line-height: 21px;
+    }
+
+        .select2-selection--multiple .select2-selection__rendered .select2-selection__choice:first-child {
+            margin-left: 0;
+        }
+
+        .select2-selection--multiple .select2-selection__rendered .select2-selection__choice .select2-selection__choice__remove {
+            color: #626262;
+            font-weight: 900;
+            margin-right: 4px;
+        }
+
+    .select2-selection--multiple .select2-selection__rendered .select2-search--inline {
+        margin-left: 8px;
+    }
+
+.select2-selection--multiple.select2-container-active .select2-choices {
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    box-shadow: none;
+}
+
+.select2-selection--multiple .select2-search-choice-close {
+    left: 6px;
+}
+
+.select2-search-choice-close {
+    background: none;
+    top: 4px;
+    right: 0;
+}
+
+    .select2-search-choice-close:hover {
+        text-decoration: none;
+    }
+
+.select2-drop-multi .select2-results .select2-no-results,
+.select2-drop-multi .select2-results .select2-searching,
+.select2-drop-multi .select2-results .select2-selection-limit {
+    top: 0px;
+}
+
+.select2.form-control {
+    padding: 0;
+    box-shadow: none;
+    border: 0;
+}
+
+.select2-drop-mask {
+    z-index: 700;
+}
+
+.ui-select-bootstrap .ui-select-choices-row.active > span {
+    background: #f0f0f0;
+    border-radius: 3px;
+    color: #626262;
+}
+
+.ui-select-bootstrap > .ui-select-choices {
+    background-color: #fff;
+}
+
+.ui-select-choices-group-label {
+    color: #2c2c2c;
+    font-weight: bold;
+}
+
+.modal-open .select2-drop-active {
+    z-index: 1051;
+}
+
+.modal-open .datepicker.dropdown-menu {
+    z-index: 1051 !important;
+}
+
+.modal-open .select2-drop-mask {
+    z-index: 1050;
+}
+
+.modal-open .cs-skin-slide.cs-active {
+    z-index: 1050;
+}
+
+.dropdown-placeholder {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dropdown-mask {
+    bottom: 0;
+    display: none;
+    left: 0;
+    outline: 0 none;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 600;
+}
+
+.ui-select-bootstrap *:focus {
+    outline: none;
+}
+
+.ui-select-bootstrap .ui-select-choices-row > span {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.ui-select-bootstrap .ui-select-match {
+    box-shadow: none;
+}
+
+.ui-select-bootstrap .ui-select-choices-group-label {
+    padding-left: 15px;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #626262;
+}
+
+.ui-select-bootstrap .ui-select-match.btn-default-focus {
+    background-color: transparent;
+}
+
+.form-group-default-select {
+    padding-bottom: 2px;
+}
+
+    .form-group-default-select .ui-select-bootstrap .ui-select-dropdown {
+        width: calc(100% + 24px) !important;
+        margin-left: -12px;
+        padding: 10px;
+    }
+
+    .form-group-default-select .ui-select-bootstrap .ui-select-match-text {
+        width: calc(100% + 24px);
+        margin-top: -17px;
+        margin-left: -16px;
+        padding: 16px 16px 0;
+    }
+
+    .form-group-default-select .ui-select-bootstrap .ui-select-match {
+        padding-top: 2px !important;
+    }
+
+        .form-group-default-select .ui-select-bootstrap .ui-select-match i.caret {
+            margin-top: 10px;
+        }
+
+        .form-group-default-select .ui-select-bootstrap .ui-select-match.btn-default-focus {
+            outline: none;
+        }
+
+        .form-group-default-select .ui-select-bootstrap .ui-select-match > .ui-select-toggle {
+            width: calc(100% + 27px);
+            height: 50px;
+            margin-top: -34px;
+            margin-left: -16px;
+            padding: 32px 16px 16px;
+        }
+
+    .form-group-default-select .ui-select-bootstrap .dropdown-menu .divider {
+        display: none;
+    }
+
+    .form-group-default-select .ui-select-bootstrap.ui-select-container {
+        margin-top: -3px;
+        padding-bottom: 2px;
+    }
+
+    .form-group-default-select .ui-select-multiple {
+        margin-top: -7px;
+    }
+
+        .form-group-default-select .ui-select-multiple .select2-search-field input {
+            height: 23px !important;
+        }
+
+        .form-group-default-select .ui-select-multiple .select2-search-choice {
+            margin-top: 2px;
+            margin-bottom: 0;
+        }
+
+            .form-group-default-select .ui-select-multiple .select2-search-choice:first-child {
+                margin-left: 0;
+            }
+
+    .form-group-default-select .select2-container-multi .select2-choices {
+        background-color: transparent;
+    }
+
+
+.logo > a > img {
+    width: 151px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 9px;
+    left: 31px;
+}
+
+.logo-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: visible;
+}
+
+img.logo-big {
+    position: relative;
+    margin-top: -25%;
+    margin-left: -50%;
+}
+
+img.login {
+    display: none;
+    width: 30%;
+    height: auto;
+}
